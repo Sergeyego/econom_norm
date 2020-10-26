@@ -35,7 +35,8 @@ SOURCES += \
     db/dbmapper.cpp \
     db/dbtablemodel.cpp \
     db/dbviewer.cpp \
-    db/dbxlsx.cpp
+    db/dbxlsx.cpp \
+    modelro.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -44,7 +45,8 @@ HEADERS += \
     db/dbmapper.h \
     db/dbtablemodel.h \
     db/dbviewer.h \
-    db/dbxlsx.h
+    db/dbxlsx.h \
+    modelro.h
 
 FORMS += \
         mainwindow.ui \

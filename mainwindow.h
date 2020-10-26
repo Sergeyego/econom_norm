@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "modelro.h"
 
 namespace Ui {
 class MainWindow;
@@ -17,6 +18,11 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    ModelRo *modelEl;
+    ModelRo *modelWire;
+
+private slots:
+    void updProd();
 };
 
 #endif // MAINWINDOW_H
